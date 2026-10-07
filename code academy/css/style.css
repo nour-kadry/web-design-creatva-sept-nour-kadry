@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #1a103c;
+    padding: 15px 60px;
+}
+.logo{
+    color: #b69307;
+    font-size: 24px;
+    font-weight: bolds;
+    margin-right: 15px;
+}
+.menu{
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bolds;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 0
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav li{
+    margin-left: 5%;
+}
+nav ul{
+    margin-left: auto;
+}
+.purple-background{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    text-align: center;
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+}
+.title{
+    color: #f5f4f3;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.description{
+    color: #bbbab9;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.roket{
+    background-color: #f3a828;
+    color: #1a103c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.button-video{
+    background-color: rgba(246, 245, 247, 0);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.section-2{
+    text-align: center;
+    padding: 100px;
+}
+.section-2 h1{
+    font-size: 30px;
+    color: #1a103c;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.section-2 p{
+    font-size: 16px;
+    color: #bbbab9;
+    margin-bottom: 15px;
+}
+.section-2 .card{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+.section-2 .card h4{
+    font-size: 20px;
+    color: #1a103c;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.icon-circle{
+    font-size: 25px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    color: #2b50aa;
+    background-color: #e8eefc;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 20px;
+}
+.section-3{
+    background-color: #cac9c8;
+    text-align: center;
+    padding: 100px;
+}
+.section-3 p{
+    color: #6f6b6b;
+    padding-top: 5px;
+}
+.card-head{
+    margin: 5px;
+}
+.html,
+.css,
+.js{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.card-2{
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-content{
+    text-align: left;
+    margin: 13px;
+}
+.card-content h3{
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+.card-info {
+    margin-bottom: 20px;
+}
+.card-info span{
+    display: inline-block;
+    width: 27%;
+    font-size: 12px;
+}
+.card-info i{
+    color: blue;
+}
+.card-content button{
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.html,
+.css,
+.js{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.section-4{
+    padding: 15px 20px 15px 20px ;
+    background-color: #4954Ce;
+}
+.section-4 div {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+}
+.section-4 i {
+    color: #f3a828;
+    padding: 15px 0;
+}
+.section-4 h4, p{
+    color: #FFFFFF;
+}
+.card-1{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 20px;
+    border-radius: 10px;
+    border-top: 4px solid blue;
+    background-color: #bbbab92a;
+}
+.section-5{
+    padding: 15px 20px 15px 20px ;
+    background-color: #010424;
+    text-align: center;
+}
+.section-5 div {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 4%;
+    text-align: center;
+}
+.section-5 i {
+    color: #1d22c1;
+    padding: 15px 0;
+}
