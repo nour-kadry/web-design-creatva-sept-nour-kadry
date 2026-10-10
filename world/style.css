@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+}
+
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between ;
+}
+hr{
+    border: 1px solid rgb(224, 223, 223);
+}
+.section-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("./images/world.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 310px;
+    color: white;
+}
+nav{
+    display: sticky;
+    top: 0;
+    background: transparent;
+}
+ul{
+    gap: 20px;
+}
+.section-1 a{
+    color: white;
+}
+.section-1 i{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.div-detils {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 200px;
+}
+.section-1-details {
+    margin-top: 210px;
+    gap: 35px;
+}
+.white-circle {
+    width: 35px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-detils h5 {
+    font-size: 10px;
+    line-height: 15px;
+}
+.blue-circle{
+    width: 35px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: rgb(2, 2, 119) rgb(2, 2, 119) rgb(2, 2, 119) white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2{
+    padding: 60px 0;
+    align-items: flex-start;
+}
+.section-2 a {
+    color: black;
+    font-size: 15px;
+}
+.section-nav{
+    padding-bottom: 20px;
+
+}
+.nav-2 li a{
+    color: #5d5d5dfc;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.nav-2 h1 {
+    font-size: 22px;
+    white-space: nowrap;
+}
+.nav-2 ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    flex-wrap: nowrap;
+}
+.section-main {
+    width: 48%;
+}
+.section-img{
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px gray;
+    width: 100%;
+    position: relative;
+}
+.section-img img{
+    width: 100%;
+
+}
+.section-img button{
+    position:absolute;
+    top: 12px;
+    left: 15;
+    padding: 0px 7px 0px 6px;
+    font-size: 10px;
+    color: rgb(40, 40, 134);
+    font-weight: bold;
+}
+.card-text{
+    padding: 15px;
+    text-align: left;
+    color: #333;
+}
+.card-text h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.card-text p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #777;
+    margin-bottom: 12px;
+}
+.chevron-icon{
+    display: flex;
+    gap: 8px;
+    padding: 15px 5px 10px;
+}
+.chevron-icon i {
+    width: 30px;
+    height: 30px;
+    color: #777;
+    border: 1px solid #515151;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-img-left{
+    width: 48%;
+}
+.img-left{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px gray;
+    height: 90px;
+}
+.img-left img{
+    width: 35%;
+    height: 88px;
+}
+.img-left .card-text {
+    width: 60%;
+    padding: 8px;
+}
+.img-left .card-text h4 {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.img-left .card-text p {
+    font-size: 8px;
+    line-height: 11px;
+    margin-bottom: 0;
+}
+.dont-miss{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.whats-trending {
+    width: 100%;
+}
+.trending-content {
+    align-items: flex-start;
+    gap: 20px;
+}
+.trending-column {
+    width: 48%;
+}
+.trending-column .section-img {
+    width: 100%;
+    height: 390px;
+    margin-bottom: 15px;
+}
+
+.trending-column .section-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.trending-column .img-left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px gray;
+}
+.trending-column .img-left img {
+    width: 100px;
+    height: 100px;
+}
+
+.trending-column .img-left .card-text {
+    width: 65%;
+    padding: 8px;
+}
+
+.trending-column .img-left .card-text h4 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+.trending-column .img-left .card-text p {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 0;
+}
+.section-content{
+    align-items: flex-start;
+}
+.container-right{
+    width: 23%;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+.container-right p {
+    font-size: 10px;
+    line-height: 1.8;
+    color: #555;
+    margin: 12px 0 20px;
+}
+
+.container-right h1 {
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 5px;
+}
+.container-left { 
+    width: 72%;
+}
+.container-right hr {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.container-right .section-img-left{
+    width: 100%;
+}
+.container-right .img-left{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px gray;
+    width: 100%;
+}
+.container-right .img-left img{
+    width: 40%;
+}
+.img-left .card-text {
+    width: 60%;
+    padding: 8px;
+}
+.follow-icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.follow-icon i{
+    font-size: 12px;
+    color: #4c4c4c;
+}
+.container-right img{
+    width: 100%
+}
+.section-3{
+    width: 80%;
+}
+.photo-card{
+    width: 33%;
+    height: 150px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.photo-1{
+    background-image: url(images/natural1.jpg);
+}
+.photo-2{
+    background-image: url(images/natural2.jpg);
+}
+.photo-3{
+    background-image: url(images/natural3.jpg);
+}
+.photo-card button{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    padding: 0px 7px 0px 6px;
+    font-size: 10px;
+    color: rgb(40, 40, 134);
+    font-weight: bold;
+}
+.photo-text{
+    color: white;
+    text-align: center;
+}
+
+.photo-text h1{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    font-size: 10px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.photo-text p{
+    font-size: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+}
+.section-4{
+    padding: 60px 0;
+    align-items: stretch;
+    gap: 30px;
+}
+.section-main-2{
+    width: 100%;
+
+}
+.section-img-left-2{
+    width: 100%;
+    gap: 15px;
+}
+.img-left-2{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px gray;
+    height: 19%;
+}
+.img-left-2 img{
+    width: 50%;
+    height: 97%;
+}
+
+.img-left-2 .card-text {
+    width: 60%;
+    padding: 8px;
+}
+.img-left-2 .card-text h4 {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.img-left-2 .card-text p {
+    font-size: 8px;
+    line-height: 11px;
+    margin-bottom: 0;
+}
+
+.container-right-2{
+    width: 28%;
+    flex-shrink: 0;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+.container-right-2 h1 {
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 2px;
+}
+.container-left-2{
+    width: 68%;
+    align-items: stretch;
+}
+.motion-card {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px #ddd;
+    margin-bottom: 20px;
+}
+
+.motion-image {
+    width: 100%;
+    position: relative;
+}
+
+.motion-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-right-2 button {
+    position: absolute;
+    top: 12px;
+    left: 15;
+    padding: 0px 7px 0px 6px;
+    font-size: 10px;
+    color: rgb(40, 40, 134);
+    font-weight: bold;
+}
+
+.motion-image i {
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container-right-2 p {
+    font-size: 10px;
+    color: #555;
+}
+.section-5{
+    text-align: center;
+}
+.section-5 button{
+    border: 1px solid rgb(255, 253, 253);
+    width: 152px;
+    height: 41px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+}
+.section-6{
+    background-color: #222;
+    color: #ffffff;
+}
+.footer{
+    align-items: center;
+}
+.footer-div{
+    font-size: 10;
+    margin: 22px 15px;
+}
