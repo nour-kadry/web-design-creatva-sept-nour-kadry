@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autoComplete="off" method="post">
+        <h1>Registration Form</h1>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstName" autocomplete="off" required placeholder="first Name" autofocus><br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastName" required placeholder="last Name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="password"><br><br>
+        <label>Gender:</label> <br>
+        <input type="radio" name="gender" value="male" required> Male <br>
+        <input type="radio" name="gender" value="female" required> Female<br>
+        <input type="radio" name="gender" value="other" required> Other<br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required min="10" max="50"> <br> <br>
+        <label for="preference">Preference:</label> <br>
+        <input type="checkbox" name="preference" value="option1"> Option 1 <br>
+        <input type="checkbox" name="preference" value="option2"> Option 2 <br>
+        <label for="imge">Image:</label>
+        <input type="file" id="imge" name="imge" accept="image/*" multiple><br><br>
+        <label for="tracks">Tracks:</label>
+        <select name="tracks" id="tracks" multiple>
+            <option value="" disabled selected>choose a track</option>
+            <option value="track1">Track 1</option>
+            <option value="track2">Track 2</option>
+            <option value="track3">Track 3</option>
+        </select><br>
+        <label for="test">Test:</label><br>
+        <input type="text" pattern="[A-Za-z\s]+" id="test" name="test" required placeholder="test"><br><br>
+        <label for="color">Color:</label><br>
+        <input type="color" id="color" name="color" >
+        <input type="date" id="date" name="date" ><br><br>
+        <input type="month" id="month" name="month" ><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea><br><br>
+
+        <input type=range id="range" name="range" value="10" min="0" max="100"><br><br>
+        <button> submit</button>
+    </form>
+</body>
+</html>

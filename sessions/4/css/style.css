@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: black;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section {
+    background-color: lightgray;
+}
+.padding-top-bottom{
+    padding: 45px 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
+.title-style {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.padding-top-bottom {
+    padding: 45px 0;
+}
+.hr-orange {
+    width: 40%;
+    margin: 2% auto;
+    border: 2px solid rgb(255, 128, 0);
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+
+}
+.icon-circle {
+    font-size: 35px;
+    border: 4px solid rgb(255, 128, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 0%;
+    padding-top: 0;
+    line-height: 2.5;
+    color: rgb(255, 128, 0);
+}
+.card h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.card-button {
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 3% 0;
+}
+.bg-black {
+    background-color: black;
+    display: inline-block;
+}
+.im {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+.card-button-2 {
+    background-color: rgba(246, 245, 245, 0);
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 3% 0;
+}
+.im-2{
+    background-image: url("../images/s.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    height: 300px;
+}
+.hr-white {
+    width: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 1px solid white;
+}
+.im-2 h1 {
+    font-size: 40px;
+}
+.im-2 p {
+    font-size: 10px;
+}
+.container-2{
+    width: 40%;
+    display: inline-block;
+}
+.container-3{
+    width: 56%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+form {
+    width: 50%;
+    margin-left: 55%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 1px solid rgb(253, 253, 253);
+    
+}
+form h6 {
+    font-size: 12px;
+    background-color: rgb(213, 213, 213);
+    padding: 10px ;
+}
+form input {
+    width: 100%;
+    margin: 10px 0;
+    border-style: none;
+}
+.f-hr {
+    width: 60%;
+    margin: 2% auto;
+}
+.form-button {
+    background-color: rgb(255, 128, 0);
+    color: white;
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+span {
+    color: rgb(255, 128, 0);
+}
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(243, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* position: absolute;
+position: relative  */
+.team {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 35%;
+    display: inline-block;
+    padding: 60px 0 25px;
+    border: 1px solid rgb(201, 201, 200);
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.team p {
+    font-size: 12px;
+    margin: 5px 0 20px;
+    color: rgb(45, 78, 226);
+}
+
+#team-card {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.a-leader {
+    position: absolute;
+    right: -10px;
+    top: 25px;
+    background-color: orange;
+    color: black;
+    padding: 5px 15px;
+}
+
+.social {
+    color: rgb(111, 179, 212);
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 8px;
+}
