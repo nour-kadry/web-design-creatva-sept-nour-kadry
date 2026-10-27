@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #2A2A2A;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    column-gap: 10px;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+nav h2{
+    color: #285E67;
+    font-size: 30px;
+}
+nav{
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #2B2B2B;
+    padding-left: 15px;
+    font-size: 17px;
+}
+w
+.health{
+    padding: 50px 0px;
+    text-align: center;
+}
+.health h1{
+    font-size: 45px;
+}
+.health p{
+    font-size: 11px;
+    padding: 15px 0px;
+}
+.health button{
+    background-color: #285E67;
+    width: 15%;
+    height: 40px;
+    border: 1px solid #285E67;
+    border-radius: 67px;
+    color: white;
+}
+.section-1-images{
+    padding-top: 30px;
+}
+.health img {
+    width: 48%;
+    border-radius: 20px;
+}
+.wellbeing{
+    background-color: #F4F4F4;
+    border-radius: 12px;
+    padding: 55px 5%;
+}
+.wellbeing-text{
+    width: 50%;
+    padding: 50px;
+}
+.wellbeing-text h1{
+    font-size: 38px;
+}
+.wellbeing-text p{
+    font-size: 13px;
+}
+.wellbeing-icon{
+    width: 100%;
+    padding: 18px 0px;
+    text-align: left;
+
+}
+.wellbeing-icon img{
+    background-color: #285E67;
+    width: 34px;
+    padding: 8px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+.wellbeing-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wellbeing-img img{
+    width: 60%;
+}
+.fresh {
+    padding: 60px 0;
+}
+.fresh-img {
+    width: 50%;
+}
+.fresh-img img {
+    width: 90%;
+}
+.fresh-text {
+    width: 50%;
+    padding-top: 20px;
+}
+.fresh-text-hed{
+    padding: 30px 0;
+}
+.fresh-text-hed h1 {
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.fresh-text-hed p {
+    font-size: 17px;
+}
+.fresh-text-icon img{
+    width: 50px;
+    border: 1.5px solid #285E67 ;
+    padding: 8px;
+    border-radius: 50%;
+}
+.fresh-text-icon p{
+    font-size: 17px;
+}
+.fresh-text-icon div {
+    padding: 15px 0;
+}
+.you-are {
+    background-color: #F4F4F4;
+    padding: 55px 5%;
+    align-items: center;
+    border-radius: 12px;
+}
+.you-are-img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.you-are-img img {
+    width: 85%;
+}
+.you-are-text{
+    width: 55%;
+    text-align: left;
+}
+.you-are-text h1{
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 38px;
+}
+.you-are-text p{
+    font-size: 16px;
+}
+.you-are-icon{
+    width: 100%;
+    text-align: left;
+    column-gap: 55px;
+}
+.you-are-icon img{
+    background-color: #EBBFAE;
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    padding: 13px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+.Wellbeing-starts{
+    background-image: url(images/section-6.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 50px 0 ;
+    border-radius: 10px;
+}
+.Wellbeing-starts-head {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.Wellbeing-starts-icon {
+    width: 100%;
+    text-align: center;
+    padding: 18px;
+    color: white;
+}
+
+.Wellbeing-starts-icon img{
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+.Wellbeing-starts-text{
+    color: white;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Wellbeing-starts-text h1 {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.Wellbeing-starts-text p {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.Wellbeing-starts-head button{
+    width: 25%;
+    height: 10%;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.Wellbeing-starts-position{
+    position: absolute;
+    width: 80%;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #fce2d7;
+    align-items: center;
+    padding: 100px 50px;
+    left: 80px;
+    bottom: -52px;
+}
+
+.Wellbeing-starts-position img {
+    width:40% ;
+}
+.Wellbeing-starts-position div {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Wellbeing-starts-position p{
+    font-size: 15px;
+}
+.section-5{
+    margin-bottom: 80px;
+}
+.section-6 {
+    background-color: #285E67;
+}
+.footer {
+    padding: 40px 20px;
+}
+.footer h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #f7f8f8;
+}
+.footer i {
+    color: #c8c8c8;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    color: #f7f8f8;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 15px;
+}

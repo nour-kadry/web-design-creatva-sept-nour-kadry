@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.d-flex {
+    display: flex;
+    column-gap: 10px;
+}
+.space {
+    justify-content: space-between;
+}
+.option-1 {
+    background-color: #EEE;
+    width: 33%;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+.option-2 {
+    background-color: #EEE;
+    width: 33%;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    transition: box-shadow 0.5s ease;
+}
+.option-3 {
+    background-color: #EEE;
+    width: 33%;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    transition: transform 0.5s ease;
+}
+.text{
+    padding: 15px;
+    font-size: 12px;
+    position: relative;
+    transition: 0.5s ease;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 10px;
+    color: white;
+    padding: 5px 2px 10px 10px;
+    z-index: 2;
+}
+.color-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(42, 148, 148);
+    border-radius: 0 0 0 100%;
+    transform-origin: top right;
+    transition: transform 0.5s ease;
+    z-index: -1;
+}
+.option-1:hover .color-bg {
+    transform: scale(15);
+}
+.option-1:hover .text {
+    color: white;
+}
+.option-2:hover {
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.option-3:hover {
+    border: 2px solid rgb(42, 148, 148);
+    
+}
