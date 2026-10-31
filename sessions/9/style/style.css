@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    column-gap: 10px;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+
+.animation-card-2{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+.img{
+    height: 250px;
+    background-color: black;
+
+}
+img{
+    width: 30%;
+    animation: carRun alternate-reverse 3s linear infinite;
+}
+
+@keyframes carRun{
+    0%{
+        transform: translate(1200px);
+    }
+}
+section{
+    background-image: linear-gradient(to bottom left, rgb(140, 191, 221), rgb(177, 89, 235) );
+}
+.animation-card{
+    width: 30%;
+    margin: auto;
+    padding: 15px 0;
+    background-color: white;
+    border: 3px solid rgb(60, 60, 216);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px black;
+    animation: upDown alternate 2s linear infinite;
+}
+@keyframes upDown{
+    0%{
+        transform: translate(0px, 15px);
+    }
+}
+
+.icon{
+    padding: 30px;
+    margin: auto;
+    background-image: linear-gradient(to right bottom, rgb(18, 176, 234), rgb(212, 8, 134) );
+    border-radius: 50%;
+    margin-top: 20px;
+    color: white;
+    animation: upDown alternate 2s linear infinite;
+}
+.icon i{
+    width: 100%;
+    font-size: 50px;
+    margin: auto;
+}
+.name{
+    margin: 15px 0;
+    align-items: center;
+    color:#5b86dc;
+}
+
+.name h1{
+    background-color: linear-gradient(to bottom, rgb(31, 55, 120), rgb(199, 0, 173) );
+}
+h2{
+    margin: 15px 0;
+    color: rgb(166, 166, 166);
+}
+button{
+    background-color: #5b86dc;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    animation: button alternate 1s linear infinite;
+}
+@keyframes button {
+    0%{
+        padding: 22px
+    }
+
+}
