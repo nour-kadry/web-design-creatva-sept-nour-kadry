@@ -47,7 +47,7 @@
 
 }
 .front{
-    background-image: url(/images/front.jpg);
+    background-image: url(images/front.jpg);
     background-position: center;
     background-size: cover;
     color: white;

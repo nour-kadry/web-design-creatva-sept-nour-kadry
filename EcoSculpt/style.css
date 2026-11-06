@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.hero-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fg-custom-green {
+    color: #2DA884;
+}
+.bg-custom-green{
+    background-color: #2DA884;
+}
+.custom-border-coler{
+    border-color: #2DA884;
+}
+
+.fg-custom-dark {
+    color: #232A42;
+}
+h1{
+    color: #232A42;
+}
+.custom-hover{
+    transition: all 0.3s ease;
+}
+
+.custom-hover i {
+    color: #2DA884;
+    transition: all 0.3s ease;
+}
+
+.custom-hover:hover {
+    background-color: #2DA884;
+    color: white;
+}
+
+.custom-hover:hover i,
+.custom-hover:hover h1,
+.custom-hover:hover h1 span,
+.custom-hover:hover p {
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
